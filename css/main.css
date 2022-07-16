@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.container{
+    background-image: url(../img/background.webp);
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.web h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+.web p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: white;
+    font-size: 0.9rem;
+}
+.explore{
+    border: 1px solid gray;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    cursor: pointer;
+}
+.img{
+    display: none;
+
+}
+
+/* media query */
+
+
+@media screen and (max-width: 500px) and (min-width: 400px) {
+    .container{
+        background-image: url(../img/background.webp);
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .web h2{
+        font-size: 3rem;
+        color: white;
+    }
+    .web p{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 500px) and (min-width: 400px) {
+    .container{
+        background-image: url(../img/background.webp);
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .web h2{
+        font-size: 3.5rem;
+        color: white;
+    }
+    .web p{
+        font-size: 1.5rem;
+    }
+    .img{
+        display: none;
+    }
+    
+
+}
+
+@media screen and (max-width: 15200px) and (min-width: 500px) and (min-width: 400px) {
+    .container{
+        background-image: url(../img/background.webp);
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .web h2{
+        font-size: 4.5rem;
+        color: white;
+    }
+    .web p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .explore{
+        margin-top: 5rem;
+    }
+    .img{
+        display: block;
+        margin-top: 4rem;
+        margin-right: 4rem;
+    }
+}
